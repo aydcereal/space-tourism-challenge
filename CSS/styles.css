@@ -1,0 +1,46 @@
+.topnav {
+
+  text-decoration: none;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 16px;
+  letter-spacing: 2.7px;
+  padding: 50px 200px 50px 100px;
+  text-align: right;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  position: absolute;
+  right: 0;
+  top: 50px;
+}
+
+.logo {
+  margin-top: 50px;
+  padding: 50px;
+
+}
+
+body {
+  background-image: url("../assets/home/background-home-desktop.jpg");
+  background-size: cover;
+
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+  cursor: pointer;
+  padding: 20px;
+
+}
+
+h1 {
+  color: #ffffff;
+}
+
+h3{
+  color: #d0d6f9;
+}
+
+P {
+  color: #d0d6f9;
+}
