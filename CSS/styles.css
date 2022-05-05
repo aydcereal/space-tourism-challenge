@@ -29,7 +29,7 @@
   position: absolute;
   right: 300px;
   bottom: 150px;
-  background-color: #ffffff;
+  background-color: teal;
   height: 200px;
   width: 200px;
   display: flex;
@@ -37,17 +37,15 @@
   align-items: center;
   font-family: 'Barlow Condensed', sans-serif;
   text-decoration: none;
-  color: black;
+  color: white;
   font-size: 24px;
   border-radius: 50%;
-
+  vertical-align: middle;border-radius: 50%;
+  transition: box-shadow 0.3s;
 }
 
-.button a:hover {
-  background-color: black;
-  border-style: solid;
-  border-color: black;
-
+.button:hover {
+  box-shadow: 0 0 0 15px #ddd;
 }
 
 
