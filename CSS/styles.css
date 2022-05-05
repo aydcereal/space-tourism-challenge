@@ -1,5 +1,4 @@
 .topnav {
-
   text-decoration: none;
   font-family: 'Barlow Condensed', sans-serif;
   font-size: 16px;
@@ -14,33 +13,93 @@
 }
 
 .logo {
-  margin-top: 50px;
-  padding: 50px;
+  position: absolute;
+  top: 86.5px;
+  margin: 0 50px;
+}
 
+.mid-container {
+  width: 30%;
+  text-align: center;
+  margin-top: 520px;
+  margin-left: 190px;
+}
+
+.button {
+  position: absolute;
+  right: 300px;
+  bottom: 150px;
+  background-color: #ffffff;
+  height: 200px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Barlow Condensed', sans-serif;
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  border-radius: 50%;
+
+}
+
+.button a:hover {
+  background-color: black;
+  border-style: solid;
+  border-color: black;
+
+}
+
+
+hr {
+  width: 50%;
+  border-top: 0;
+  margin: 0;
+  top: 110px;
+  left: 10rem;
+  z-index: 999;
+  position: relative;
 }
 
 body {
   background-image: url("../assets/home/background-home-desktop.jpg");
   background-size: cover;
-
 }
 
-a {
+.topnav a {
   text-decoration: none;
   color: #ffffff;
   cursor: pointer;
-  padding: 20px;
+  padding: 50px 20px;
+}
 
+.topnav a:hover {
+  border-bottom-style: solid;
+  height: 100px;
 }
 
 h1 {
   color: #ffffff;
+  font-family: 'Bellefair Regular', serif;
+  font-size: 150px;
+  font-weight: lighter;
+  margin: 25px;
 }
 
-h3{
+h5 {
   color: #d0d6f9;
+  font-size: 28px;
+  font-family: 'Barlow Condensed Regular', sans-serif;
+  font-weight: lighter;
+  letter-spacing: 4.75px;
+  margin: 0;
 }
 
 P {
   color: #d0d6f9;
+  text-align: left;
+  font-family: 'Barlow Condensed Regular', sans-serif;
+  line-height: 1.5;
+  width: 75%;
+  margin: auto;
 }
