@@ -21,7 +21,7 @@
 .mid-container {
   width: 30%;
   text-align: center;
-  margin-top: 520px;
+  margin-top: 420px;
   margin-left: 190px;
 }
 
@@ -35,21 +35,21 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: 'Barlow Condensed', sans-serif;
+  font-family: 'Barlow Condensed', serif;
   text-decoration: none;
   color: black;
   font-size: 24px;
-  border-radius: 50%;
   vertical-align: middle;border-radius: 50%;
   transition: box-shadow 0.3s;
 }
 
 .button:hover {
-  box-shadow: 0 0 0 15px #ddd;
+  box-shadow: 0 0 0 50px rgba(255, 255, 255, 0.2);
+
 }
 
 
-hr {
+.hr-nav {
   width: 50%;
   border-top: 0;
   margin: 0;
@@ -60,7 +60,7 @@ hr {
 }
 
 body {
-  background-image: url("../assets/home/background-home-desktop.jpg");
+
   background-size: cover;
 }
 
@@ -76,12 +76,77 @@ body {
   height: 100px;
 }
 
+.h5-2 {
+  color: #ffffff;
+  position: relative;
+  top: 250px;
+  left: 200px;
+  width: 30%;
+
+}
+
+.moon {
+  position: relative;
+  top: 350px;
+  left: 400px;
+}
+
+.destination-nav {
+  font-family: 'Bellefair Regular', serif;
+  color: #ffffff;
+  font-size: 28px;
+}
+
+.destination-tabs {
+  width: 445px;
+  height: 472px;
+  position: absolute;
+  right: 200px;
+  bottom: 100px;
+
+}
+
+.subheading1{
+  font-family: 'Bellefair Regular', serif;
+  color: #ffffff;
+  font-size: 28px;
+}
+
+.subheading2 {
+  font-family: 'Barlow Condensed', serif;
+  font-size: 14px;
+  letter-spacing: 2.35;
+}
+
+.destination-p{
+  width: 100%;
+  margin:40px 0 ;
+}
+
+em {
+  font-style: normal;
+  color: #50535b;
+  font-weight: bold;
+}
+
+table{
+  width: 100%;
+}
+
 h1 {
   color: #ffffff;
   font-family: 'Bellefair Regular', serif;
   font-size: 150px;
   font-weight: lighter;
   margin: 25px;
+}
+
+h2 {
+  color: #ffffff;
+  font-family: 'Bellefair Regular', serif;
+  font-size: 100px;
+  font-weight: lighter;
+  margin: 40px 0;
 }
 
 h5 {
@@ -100,4 +165,15 @@ P {
   line-height: 1.5;
   width: 75%;
   margin: auto;
+}
+
+
+
+a{
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.hr2{
+  opacity: 50%;
 }

@@ -1,37 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+
   <title>Frontend Mentor | Space tourism website</title>
 </head>
+
 <body>
 
-  00 Home
-  01 Destination
-  02 Crew
-  03 Technology
+  <style>
+    body {
+      background-image: url("assets/destination/background-destination-desktop.jpg");
+    }
+  </style>
 
-  01 Pick your destination
+  <img class="logo" src="assets/shared/logo.svg" alt="">
+  <hr class="hr-nav">
+  <div class="topnav">
+    <a class="active" href="index.html"><strong>00</strong> HOME</a>
+    <a href="destination-moon.html"><strong>01</strong> DESTINATION</a>
+    <a href="#crew"><strong>02</strong> CREW</a>
+    <a href="#technology"><strong>03</strong> TECHNOLOGY</a>
+  </div>
 
-  Moon
-  Mars
-  Europa
-  Titan
+  <h5 class="h5-2"><em>01</em> PICK YOUR DESTINATION</h5>
+  <img class="moon" src="assets/destination/image-moon.png" alt="">
 
-  Moon
+  <div class="destination-tabs">
 
-  See our planet as you’ve never seen it before. A perfect relaxing trip away to help 
-  regain perspective and come back refreshed. While you’re there, take in some history 
-  by visiting the Luna 2 and Apollo 11 landing sites.
+    <div class="destination-nav">
+      <a href="#moon">Moon</a>
+      <a href="#Mars">Mars</a>
+      <a href="#Europa">Europa</a>
+      <a href="#Titan">Titan</a>
 
-  Avg. distance
-  384,400 km
+    </div>
 
-  Est. travel time
-  3 days
+    <h2>MOON</h2>
+
+    <p class="destination-p">
+      See our planet as you’ve never seen it before. A perfect relaxing trip away to help
+      regain perspective and come back refreshed. While you’re there, take in some history
+      by visiting the Luna 2 and Apollo 11 landing sites.
+    </p>
+
+    <hr class="hr2">
+
+    <table>
+      <tr>
+        <th>
+          <p class="subheading2"> Avg. distance</p>
+        </th>
+        <th>
+          <p class="subheading2">Est. travel time</p>
+        </th>
+      </tr>
+      <tr>
+        <th>
+          <p class="subheading1"> 384,400 km </p>
+        </th>
+        <th>
+          <p class="subheading1">3 days</p>
+        </th>
+      </tr>
+    </table>
+  </div>
 </body>
+
 </html>
