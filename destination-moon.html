@@ -9,13 +9,18 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="CSS/styles.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="script.js" defer></script>
+  
 
   <title>Frontend Mentor | Space tourism website</title>
 </head>
 
 <body>
 
+  <script>
+    fetch("data.jason")
+  </script>
   <style>
     body {
       background-image: url("assets/destination/background-destination-desktop.jpg");
@@ -32,46 +37,140 @@
   </div>
 
   <h5 class="h5-2"><em>01</em> PICK YOUR DESTINATION</h5>
-  <img class="moon" src="assets/destination/image-moon.png" alt="">
+  <div id="moon-img"data-tab-img> 
+    <img class="moon" src="assets/destination/image-moon.png" alt="" >
+  </div>
+  
 
-  <div class="destination-tabs">
 
-    <div class="destination-nav">
-      <a href="#moon">Moon</a>
-      <a href="#Mars">Mars</a>
-      <a href="#Europa">Europa</a>
-      <a href="#Titan">Titan</a>
 
+  <div class="destination-tabs" >
+
+    <ul>
+      <li data-tab-target="#moon">Moon</li>
+      <li data-tab-target="#mars">Mars</li>
+      <li data-tab-target="#europa">Europa</li>
+      <li data-tab-target="#titan">Titan</li>
+    </ul>
+
+  <div class="jsontest"></div>
+
+    
+   
+    <!-- <div id="moon" data-tab-content  class="active">
+      <h2>MOON</h2>
+      <p class="destination-p">
+        See our planet as you’ve never seen it before. A perfect relaxing trip away to help
+        regain perspective and come back refreshed. While you’re there, take in some history
+        by visiting the Luna 2 and Apollo 11 landing sites.
+      </p>
+      <hr class="hr2">
+      <table>
+        <tr>
+          <th>
+            <p class="subheading2"> Avg. distance</p>
+          </th>
+          <th>
+            <p class="subheading2">Est. travel time</p>
+          </th>
+        </tr>
+        <tr>
+          <th>
+            <p class="subheading1"> 384,400 km </p>
+          </th>
+          <th>
+            <p class="subheading1">3 days</p>
+          </th>
+        </tr>
+      </table>
     </div>
 
-    <h2>MOON</h2>
+    <div id="mars" data-tab-content>
+      <h2>MARS</h2>
+      <p class="destination-p">
+        See our planet as you’ve never seen it before. A perfect relaxing trip away to help
+        regain perspective and come back refreshed. While you’re there, take in some history
+        by visiting the Luna 2 and Apollo 11 landing sites.
+      </p>
+      <hr class="hr2">
+      <table>
+        <tr>
+          <th>
+            <p class="subheading2"> Avg. distance</p>
+          </th>
+          <th>
+            <p class="subheading2">Est. travel time</p>
+          </th>
+        </tr>
+        <tr>
+          <th>
+            <p class="subheading1"> 384,400 km </p>
+          </th>
+          <th>
+            <p class="subheading1">3 days</p>
+          </th>
+        </tr>
+      </table>
+    </div>
 
-    <p class="destination-p">
-      See our planet as you’ve never seen it before. A perfect relaxing trip away to help
-      regain perspective and come back refreshed. While you’re there, take in some history
-      by visiting the Luna 2 and Apollo 11 landing sites.
-    </p>
+    <div id="europa" data-tab-content>
+      <h2>EUROPA</h2>
+      <p class="destination-p">
+        See our planet as you’ve never seen it before. A perfect relaxing trip away to help
+        regain perspective and come back refreshed. While you’re there, take in some history
+        by visiting the Luna 2 and Apollo 11 landing sites.
+      </p>
+      <hr class="hr2">
+      <table>
+        <tr>
+          <th>
+            <p class="subheading2"> Avg. distance</p>
+          </th>
+          <th>
+            <p class="subheading2">Est. travel time</p>
+          </th>
+        </tr>
+        <tr>
+          <th>
+            <p class="subheading1"> 384,400 km </p>
+          </th>
+          <th>
+            <p class="subheading1">3 days</p>
+          </th>
+        </tr>
+      </table>
+    </div>
 
-    <hr class="hr2">
+    <div id="titan" data-tab-content>
+      <h2>TITAN</h2>
+      <p class="destination-p">
+        See our planet as you’ve never seen it before. A perfect relaxing trip away to help
+        regain perspective and come back refreshed. While you’re there, take in some history
+        by visiting the Luna 2 and Apollo 11 landing sites.
+      </p>
+      <hr class="hr2">
+      <table>
+        <tr>
+          <th>
+            <p class="subheading2"> Avg. distance</p>
+          </th>
+          <th>
+            <p class="subheading2">Est. travel time</p>
+          </th>
+        </tr>
+        <tr>
+          <th>
+            <p class="subheading1"> 384,400 km </p>
+          </th>
+          <th>
+            <p class="subheading1">3 days</p>
+          </th>
+        </tr>
+      </table>
+    </div> -->
 
-    <table>
-      <tr>
-        <th>
-          <p class="subheading2"> Avg. distance</p>
-        </th>
-        <th>
-          <p class="subheading2">Est. travel time</p>
-        </th>
-      </tr>
-      <tr>
-        <th>
-          <p class="subheading1"> 384,400 km </p>
-        </th>
-        <th>
-          <p class="subheading1">3 days</p>
-        </th>
-      </tr>
-    </table>
+
+
   </div>
 </body>
 
